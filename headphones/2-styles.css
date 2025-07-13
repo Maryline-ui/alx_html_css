@@ -1,0 +1,88 @@
+/*Contents of the Our_results*/
+        body, html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        .background2 {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+            z-index: -1;
+        }
+        .shapes {
+            justify-content: space-between;
+            flex-direction: row;
+            position: fixed;
+            z-index: 100;
+    
+        }
+
+        .diagram {
+            position: fixed;
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+            z-index: -1;
+            width: 200px;
+            height: auto;
+            left: 100%;
+            top: 5%;
+        }
+        .diagram2 {
+            position: fixed;
+            width: 100vw;
+            object-fit: cover;
+            z-index: -1;
+            width: 200px;
+            height: auto;
+            left: 500%;
+            top: 5%;
+
+        }
+        .diagram3 {
+            position: fixed;
+            width: 100vw;
+            object-fit: cover;
+            z-index: -1;
+            width: 200px;
+            height: auto;
+            left: 900%;
+            top: 5%;
+        }
+        .diagram4 {
+            position: fixed;
+            width: 100vw;
+            object-fit: cover;
+            z-index: -1;
+            width: 200px;
+            height: auto;
+            left: 1300%;
+            top: 5%;
+        }
+        .overlay-content2 {
+            position: absolute;
+            top: 10%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            border-radius: 1rem;
+            max-width: 90vw;
+            
+        }
+        .overlay2 {
+            position: absolute;
+            top: 60%;
+            left: 10%;
+            transform: translate(0, -50%);
+            z-index: 0;  
+            padding: 2rem;
+            border-radius: 1rem;
+            max-width: 90vw;
+        }
+       

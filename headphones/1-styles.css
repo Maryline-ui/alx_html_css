@@ -1,0 +1,63 @@
+/*Contents of the first-main*/
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+.backgroung {
+    position: fixed;
+    top: 30%;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+.overlay-content {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 1rem;
+    max-width: 90vw;
+}
+
+nav {
+    position: absolute;
+    top: -50%;
+    right: -250px;
+    justify-content: space-between;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 50px;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav ul a:hover{
+    color: crimson;
+}
+.button button {
+  background-color: #770727;  /* Bootstrap-style blue */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 80px;         /* Curved corners */
+  cursor: pointer;
+  font-size: 16px;
+}
+.base-content {
+    text-align: center;
+    font-size:medium;
+}
